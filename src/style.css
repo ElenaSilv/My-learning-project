@@ -1,0 +1,47 @@
+.weekdays {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+.weektemperatures {
+  position: relative;
+  top: -270px;
+  left: 100px;
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+
+.currenttemperature {
+  position: relative;
+  top: -30px;
+  left: 120px;
+  font-size: 70px;
+}
+
+.moonicon {
+  position: relative;
+  right: -30px;
+  top: 50px;
+  font-size: 50px;
+}
+
+.currentcity {
+  font-size: 25px;
+  position: relative;
+  right: -30px;
+  text-align: left;
+}
+
+.currenttime {
+  position: relative;
+  right: -30px;
+  top: 40px;
+  font-size: 18px;
+}
+
+.currentdate {
+  position: relative;
+  right: -30px;
+  font-size: 18px;
+  top: 30px;
+}

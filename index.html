@@ -1,16 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-  <h1>
-      Hosted with <a href="https://www.netlify.com/"> Netlify</a>
-  </h1>  
-  <script src="script.js"></script>
-</body>
+ <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="src/style.css" />
+  <script src="https://kit.fontawesome.com/c1963fbc95.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+ </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <form>
+            <div id="form-group">
+              <input type="text" placeholder="Choose city" autocomplete=off id="search-city" aria-describedby="city">
+               <button type="submit" class="btn btn-info">Search
+               </button>
+            </div>
+          </form>
+          </br>
+          <div class="row">
+            <div class="col-6">
+              <h3 class="currentcity">
+                LONDON, UK
+              </h3>
+						</br>
+						  <h4 class="currentdate">
+								Wednesday, 20th October
+							</h4>
+              <h4 class="currenttime">
+                GMT 9:06 PM
+              </h4>
+            <div class="moonicon">
+              <i class="far fa-moon"></i>
+            </div>
+             <h1 class="currenttemperature">
+               9°
+             </h1>
+            </div>
+            <div class="col-6">
+              <ul class="weekdays">
+                <li>
+                  Sun
+                </li>
+                <li>
+                  Mon 
+                </li>
+                <li>
+                  Tue 
+                </li>
+                <li>
+                  Wed 
+                </li>
+                <li>
+                  Thu 
+                </li>
+                <li>
+                  Fri 
+                </li>
+                <li>
+                  Sat 
+                </li>
+               </ul>
+               <ul class="weektemperatures">
+                <li>
+                  9°/16°
+                </li>
+                <li>
+                  10°/14° 
+                </li>
+                <li>
+                  9°/17°
+                </li>
+                <li>
+                  9°/18°
+                </li>
+                <li>
+                  9°19°
+                </li>
+                <li>
+                  11°/18°
+                </li>
+                <li>
+                  11°/18°
+                </li>
+              </ul>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+      <script src="src/script.js"> </script>
+    </body>
 </html>
