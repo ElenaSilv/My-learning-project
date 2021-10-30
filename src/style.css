@@ -45,3 +45,8 @@
   font-size: 18px;
   top: 30px;
 }
+
+#repo {
+  position: relative;
+  right: -50px;
+}
